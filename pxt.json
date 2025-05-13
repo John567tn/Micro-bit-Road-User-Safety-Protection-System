@@ -1,0 +1,28 @@
+{
+    "name": "道路使用者安全保护系统",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8",
+        "microbit-dstemp": "github:bsiever/microbit-dstemp#v0.1.26",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.2",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
